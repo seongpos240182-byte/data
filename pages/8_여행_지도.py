@@ -20,3 +20,7 @@ if choice:
         st.success("오늘 야식은 엽떡에 허니콤보 조합 각..")
     elif "마라탕" in choice:
         st.info("꿔바로우는 선택이 아닌 필수!")
+
+
+name = st.text_input('또 먹고 싶은 거 없어? : ')
+menu = st.selectbox('뭐하고 싶어?:', ['보드게임','수다 떨기'])

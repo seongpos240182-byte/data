@@ -19,3 +19,5 @@ menu = st.selectbox('메인 놀이를 선택해주세요 👇:', ['보드게임'
 name = st.text_input('또 하고 싶은 거 없어? : ')
 
 st.subheader("그날 우리의 스타일을 정해보자!")
+age = st.slider('꾸밈정도 몇으로 할래?', 0, 5, 3)
+st.write("우리는 ", age, '단계로 가자!')

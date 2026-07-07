@@ -13,6 +13,6 @@ choice = st.radio(
 
 
 name = st.text_input('사이드로 뭐 먹을래? : ')
-st.subheader("메인 놀이를 선택해주세요 👇")
-menu = st.selectbox('뭐하고 싶어?:', ['보드게임','수다 떨기','아이돌 직캠 시청','공포영화 보기','산책하기'])
+st.subheader("오늘 밤 우리의 도파민은?")
+menu = st.selectbox('메인 놀이를 선택해주세요 👇:', ['보드게임','수다 떨기','아이돌 직캠 시청','공포영화 보기','산책하기'])
 name = st.text_input('또 하고 싶은 거 없어? : ')

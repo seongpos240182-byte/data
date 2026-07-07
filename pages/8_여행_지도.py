@@ -17,4 +17,5 @@ st.write("---")
 
 
 name = st.text_input('또 먹고 싶은 거 없어? : ')
+st.subheader("오늘 뭐하고 놀지??")
 menu = st.selectbox('뭐하고 싶어?:', ['보드게임','수다 떨기','아이돌 직캠 시청','공포영화 보기','산책하기'])

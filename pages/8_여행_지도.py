@@ -1,7 +1,7 @@
 import streamlit as st
 
 # 페이지 제목 설정
-st.title(" 오늘밤은 걸스나잇 뭐먹을지 골라!")
+st.title(" 오늘밤은 girls' night!!")
 st.subheader("오늘 야식 메뉴 고르기")
 
 st.write("---")
